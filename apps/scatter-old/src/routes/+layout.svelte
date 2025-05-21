@@ -14,16 +14,16 @@
 
 <GlobalStyle>
 	<Authenticate>
-		<!-- <LoadI18n {messagesMap}> -->
+		<LoadI18n {messagesMap}>
 			{@render props.children()}
-		<!-- </LoadI18n> -->
+		</LoadI18n>
 	</Authenticate>
 </GlobalStyle>
 
 <LoaderCarrot oncomplete={() => (showYourLoader = true)} />
 
 {#if showYourLoader}
-	<LoaderExample src={'/loader.gif'} />
+	<LoaderExample src={'./loader.gif'} />
 	<!-- '/loader.gif' is served from static folder of sveltekit -->
 	<!-- File location: apps/scatter/static/loader.gif -->
 {/if}
