@@ -22,8 +22,8 @@ export default {
 			precompress: false,
 			strict: true
 		}),
-		paths: {
-            base: '/apps/scatter-ai'
-        }
+		// paths: {
+        //     base: '/apps/scatter-ai'
+        // }
 	}
 };

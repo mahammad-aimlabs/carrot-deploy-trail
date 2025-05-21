@@ -23,7 +23,7 @@
 <LoaderCarrot oncomplete={() => (showYourLoader = true)} />
 
 {#if showYourLoader}
-	<LoaderExample src={'./loader.gif'} />
+	<LoaderExample src={'/loader.gif'} />
 	<!-- '/loader.gif' is served from static folder of sveltekit -->
 	<!-- File location: apps/scatter/static/loader.gif -->
 {/if}
