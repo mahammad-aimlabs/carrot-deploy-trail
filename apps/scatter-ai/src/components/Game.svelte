@@ -106,7 +106,7 @@
 		<FreeSpinOutro />
 		<Transition />
 
-		<I18nTest />
+		<!-- <I18nTest /> -->
 	{/if}
 </App>
 

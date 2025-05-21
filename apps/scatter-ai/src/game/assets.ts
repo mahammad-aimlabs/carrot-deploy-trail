@@ -290,16 +290,6 @@ export default {
 
 
 	//New Assets
-	//Local;
-	// bg: {
-	// 	type: 'sprite',
-	// 	src: `/assets/${'default'}/game-screen/main_bg.jpg`,
-	// 	preload: true
-	// },
-	// symbols: {
-	// 	type: 'sprites',
-	// 	src: `/assets/${'default'}/game-screen/symbols.json`,
-	// },
 	//CDN Assets
 	bg: {
 		type: 'sprite',
@@ -315,6 +305,15 @@ export default {
 		src: `${CDN_URL+'/'+uniqueCode}/frame_bg.png`,
 	},
 	//Common for now
+	// bg: {
+	// 	type: 'sprite',
+	// 	src: `/assets/${'default'}/game-screen/main_bg.jpg`,
+	// 	preload: true
+	// },
+	// symbols: {
+	// 	type: 'sprites',
+	// 	src: `/assets/${'default'}/game-screen/symbols.json`,
+	// },
 	// frame_bg: {
 	// 	type: 'sprite',
 	// 	src: `/assets/${'default'}/game-screen/frame_bg.png`,

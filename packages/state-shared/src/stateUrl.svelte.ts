@@ -14,7 +14,7 @@ const sessionID = () => getUrlSearchParam('sessionID') || '';
 const rgsUrl = () => getUrlSearchParam('rgs_url') || '';
 const socialCasino = () => getUrlSearchParam('socialCasino') === 'true';
 const force = () => getUrlSearchParam('force') === 'true';
-
+console.log(lang()+' from common packages')
 export const stateUrlDerived = {
 	lang,
 	gameID,
