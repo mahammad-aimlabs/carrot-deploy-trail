@@ -33,7 +33,7 @@ out/
 dist
 
 #build
-static/apps/
+# static/apps/
 
 #storybook
 build-storybook.log
