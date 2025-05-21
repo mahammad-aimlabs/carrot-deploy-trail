@@ -14,9 +14,9 @@
 
 <GlobalStyle>
 	<Authenticate>
-		<LoadI18n {messagesMap}>
+		<!-- <LoadI18n {messagesMap}> -->
 			{@render props.children()}
-		</LoadI18n>
+		<!-- </LoadI18n> -->
 	</Authenticate>
 </GlobalStyle>
 

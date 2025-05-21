@@ -1,0 +1,22 @@
+{"frames": {
+
+"sym_1":
+{
+	"frame": {"x":1,"y":513,"w":117,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":5,"y":6,"w":117,"h":116},
+	"sourceSize": {"w":128,"h":128}
+}
+},
+"animations": {
+	"sym": ["sym_1"]
+},
+"meta": {
+	"version": "1.0",
+	"image": "symbols.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
