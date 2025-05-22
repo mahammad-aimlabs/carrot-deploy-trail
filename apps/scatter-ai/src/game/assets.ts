@@ -1,5 +1,5 @@
 const BASE_BUCKET = 'https://test-twist-front-2.s3.ap-southeast-2.amazonaws.com/1-2-mining-game';
-const CDN_URL= '/api/games/scatter-ai/assets/game'
+const CDN_URL= '/games/scatter-ai/assets/game'
 // import { page } from '$app/state';
 // console.log(page)
 // const getUrlSearchParam = (key:any) => page .url|| ' ';
@@ -170,14 +170,14 @@ export default {
 			scale: 2,
 		},
 	},
-	// globalMultiplier: {
-	// 	type: 'spine',
-	// 	src: {
-	// 		atlas: `${BASE_BUCKET}/spines/globalMultiplier/multiframe.atlas`,
-	// 		skeleton: `${BASE_BUCKET}/spines/globalMultiplier/multiframe.json`,
-	// 		scale: 2,
-	// 	},
-	// },
+	globalMultiplier: {
+		type: 'spine',
+		src: {
+			atlas: `${BASE_BUCKET}/spines/globalMultiplier/multiframe.atlas`,
+			skeleton: `${BASE_BUCKET}/spines/globalMultiplier/multiframe.json`,
+			scale: 2,
+		},
+	},
 	fsIntro: {
 		type: 'spine',
 		src: {
@@ -307,7 +307,7 @@ export default {
 	//Common for now
 	// bg: {
 	// 	type: 'sprite',
-	// 	src: `/assets/${'default'}/game-screen/main_bg.jpg`,
+	// 	src: `/assets/${'default'}/game-screen/main_bg.png`,
 	// 	preload: true
 	// },
 	// symbols: {
@@ -323,11 +323,11 @@ export default {
 		type: 'sprite',
 		src: `/assets/${'default'}/game-screen/frame_tumble.png`,
 	},
-	title: {
-		type: 'sprite',
-		src: `/assets/${'default'}/game-screen/title.png`,
-		preload: true
-	},
+	// title: {
+	// 	type: 'sprite',
+	// 	src: `/assets/${'default'}/game-screen/title.png`,
+	// 	preload: true
+	// },
 	frame_tumbleWin: {
 		type: 'sprite',
 		src: `/assets/${'default'}/game-screen/frame_tumbleWin.png`,
@@ -341,12 +341,12 @@ export default {
 		src: `/assets/${'default'}/game-screen/loading.json`,
 		preload: true
 	},
-	globalMultiplier: {
-		type: 'spine',
-		src: {
-			atlas: `/assets/${'default'}/game-screen/multiframe.atlas`,
-			skeleton: `/assets/${'default'}/game-screen/multiframe.json`,
-			scale: 2,
-		},
-	},
+	// globalMultiplier: {
+	// 	type: 'spine',
+	// 	src: {
+	// 		atlas: `/assets/${'default'}/game-screen/multiframe.atlas`,
+	// 		skeleton: `/assets/${'default'}/game-screen/multiframe.json`,
+	// 		scale: 2,
+	// 	},
+	// },
 } as const;
